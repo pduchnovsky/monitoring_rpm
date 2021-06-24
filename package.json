@@ -1,0 +1,11 @@
+{
+  "name": "monitoring_rpm",
+  "version": "1.0.0",
+  "description": "Transforming data and creating custom descriptors",
+  "main": "app.js",
+  "dependencies": {
+    "@google-cloud/monitoring": "^2.3.1"
+  },
+  "author": "pduchnovsky",
+  "license": "ISC"
+}
