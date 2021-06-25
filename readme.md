@@ -1,4 +1,4 @@
-This project is designed for transforming certain metric (in this case loadbalancing.googleapis.com/https/request_count) from google monitoring to a custom metric so it could be used as a target for Kubernetes Horizontal Pod Autoscaler
+This project is designed for transforming certain metric (in this case loadbalancing.googleapis.com/https/request_count) from google monitoring to a custom metric so it could be used as a target for Kubernetes Horizontal Pod Autoscaler even if you'd like to filter special characters that normally can't be used within HPA.
 
 This script is designed to run with 'every 1 minute' schedule, it internally performs several runs to cover at least 1 minute and ignores errors related to 'duplicate' descriptors and so on.
 
